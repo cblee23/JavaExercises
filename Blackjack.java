@@ -39,7 +39,7 @@ public class Blackjack
 		System.out.println("Would you like to \"hit\" or \"stay\"?");
 		String hit = kb.next();
 		
-		if ( chips <= wager ) 
+		if ( chips < wager ) 
 			{
 			System.out.println("You don't have enough chips to play!  Come back later.");
 			break;
